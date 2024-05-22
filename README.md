@@ -22,7 +22,7 @@
 
 # Описание базы данных:
 #### Файл базы данных называется GroceryStore.bacpac <br/>
-Файл базы данных расположен в проекте по пути **PlaidShirts\PlaidShirts\bin\Debug** </br>
+Файл базы данных расположен по пути **https://github.com/ArinaKutina/GroceryStore/tree/master/GroceryStore** </br>
 В базе данных находятся 4 таблиц _Products_, _Producers_, _Promotions_, _ComposeOfCheck_.
 
 - **Таблица «Products»** _(idProduct, nameProduct, numBarcode, idProducer, expirationDate, idPromotion, discount, count, price)_ содержит информацию о товарах
