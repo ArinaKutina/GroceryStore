@@ -33,55 +33,55 @@
 # Скриншоты приложения:
 
 <p align="center">
-  <img <img src="https://github.com/ArinaKutina">
+  <img <img src="https://github.com/ArinaKutina/GroceryStore/blob/master/GroceryStore/Screenshots/Mainwindow.png">
 </br>Главная страница
 </br> </br> </br>
 </p>
 
 <p align="center">
-  <img <img src="https://github.com/ArinaKutina">
+  <img <img src="https://github.com/ArinaKutina/GroceryStore/blob/master/GroceryStore/Screenshots/AddToBasket.png">
 </br>Добавление в корзину
 </br> </br> </br>
 </p>
 
 <p align="center">
-  <img <img src="https://github.com/ArinaKutina">
-</br>Корзина
-</br> </br> </br>
-</p>
-
-<p align="center">
-  <img <img src="https://github.com/ArinaKutina">
+  <img <img src="https://github.com/ArinaKutina/GroceryStore/blob/master/GroceryStore/Screenshots/RemoveFromBasket.png">
 </br>Удаление из корзины
 </br> </br> </br>
 </p>
 
 <p align="center">
-  <img <img src="https://github.com/ArinaKutina">
+  <img <img src="https://github.com/ArinaKutina/GroceryStore/blob/master/GroceryStore/Screenshots/ErrorRemove.png">
+</br>Удаление из корзины(ошибка)
+</br> </br> </br>
+</p>
+
+<p align="center">
+  <img <img src="https://github.com/ArinaKutina/GroceryStore/blob/master/GroceryStore/Screenshots/Check.png">
 </br>Чек
 </br> </br> </br>
 </p>
 
 <p align="center">
-  <img <img src="https://github.com/ArinaKutina">
+  <img <img src="https://github.com/ArinaKutina/GroceryStore/blob/master/GroceryStore/Screenshots/Stock.png">
 </br>Просмотр товаров на складе
 </br> </br> </br>
 </p>
 
 <p align="center">
-  <img <img src="https://github.com/ArinaKutina">
+  <img <img src="https://github.com/ArinaKutina/GroceryStore/blob/master/GroceryStore/Screenshots/Search.png">
 </br>Поиск товара по штрихкоду
 </br> </br> </br>
 </p>
 
 <p align="center">
-  <img <img src="https://github.com/ArinaKutina">
+  <img <img src="https://github.com/ArinaKutina/GroceryStore/blob/master/GroceryStore/Screenshots/log.png">
 </br>Лог-файл
 </br> </br> </br>
 </p>
 
 <p align="center">
-  <img <img src="https://github.com/ArinaKutina">
+  <img <img src="https://github.com/ArinaKutina/GroceryStore/blob/master/GroceryStore/Screenshots/Unit tests.png">
 </br>Юнит-тестирование DLL
 </br> </br> </br>
 </p>
