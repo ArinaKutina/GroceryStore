@@ -1,0 +1,31 @@
+﻿<Window x:Class="GroceryStore.Views.CheckWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GroceryStore.Views"
+        mc:Ignorable="d"
+        Title="Чек" Height="606" Width="549">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Магазин" Margin="0 0 0 0" />
+            <TextBlock Text="Grocery Store" Margin="0 0 0 0" FontSize="24" FontWeight="Bold" Foreground="#2F4538" />
+            <DataGrid x:Name="CheckGrid" Margin="0 0 0 0" AutoGenerateColumns="False" Height="266">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding Products.nameProduct}" Header="Наименование товара" FontSize="12" />
+                    <DataGridTextColumn Binding="{Binding count}" Header="Количество" FontSize="15" />
+                    <DataGridTextColumn Binding="{Binding Products.price}" Header="Цена за шт." FontSize="15" />
+                    <DataGridTextColumn Binding="{Binding fullPrice}" Header="Сумма" FontSize="15" />
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <TextBlock Text="Итого:" Margin="0 0 0 0" FontSize="20" />
+            <TextBox x:Name="fullPriceBox" Height="41" Margin="0 0 0 0" FontSize="20" Width="204" />
+            <TextBlock Text="руб." Margin="0 0 0 0" FontSize="20" Width="42" />
+            <TextBlock Text="Цена без учета скидок:" Margin="0 0 0 0" FontSize="20" />
+            <TextBox x:Name="fullNoDiscPriceBox" Height="41" Margin="0 0 0 0" FontSize="20" Width="204" />
+            <TextBlock Text="руб." Margin="0 0 0 0" FontSize="20" Width="42" />
+            <Button x:Name="CloseButton" Margin="0 20 0 0" Content="Закрыть чек" FontSize="19" Width="305" Click="CloseButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>

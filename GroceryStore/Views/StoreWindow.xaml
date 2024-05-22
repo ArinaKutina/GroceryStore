@@ -1,0 +1,23 @@
+﻿<Window x:Class="GroceryStore.Views.StoreWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GroceryStore.Views"
+        mc:Ignorable="d"
+        Title="Товары на складе" Height="1080" Width="1920" WindowState="Maximized">
+    <Grid>
+        <StackPanel>
+            <DataGrid x:Name="ProductsGrid" Height="880" AutoGenerateColumns="False">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Binding="{Binding Path=nameProduct}" Header="Наименование товара" FontSize="24" />
+                    <DataGridTextColumn Binding="{Binding Path=count}" Header="Количество" FontSize="24" />
+                    <DataGridTextColumn Binding="{Binding Path=expirationDate}" Header="Срок годности" FontSize="24" />
+                    <DataGridTextColumn Binding="{Binding Path=numBarcode}" Header="Штрихкод" FontSize="24" />
+                    <DataGridTextColumn Binding="{Binding Path=Producers.nameProducer}" Header="Производитель" FontSize="24" />
+                </DataGrid.Columns>
+            </DataGrid>
+            <Button x:Name="BackButton" Content="Назад" FontSize="24" Height="60" Width="450" Margin="1200 60 0 0" Click="BackButton_Click" />
+        </StackPanel>
+    </Grid>
+</Window>
